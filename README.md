@@ -26,6 +26,6 @@ Examining shopping behavior during Christmas, including **customer segmentation 
 ### 📈 Other Pages  
 Providing **additional insights** into **Xmas Sales & Trends**, summarizing key findings to support strategic planning.  
 
-📌 Beyond analyzing key metrics, I also provide **recommendations and personal perspectives**, hoping they will be helpful to everyone! 🚀  
+📌 Beyond analyzing key metrics, I also provide **recommendations and personal perspectives**, hoping they will be helpful to everyone! 
 
 
