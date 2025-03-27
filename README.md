@@ -1,7 +1,7 @@
 # 🎅 Christmas Sales Dashboard
 
-📊 **View the Dashboard directly:** [Power BI](https://app.powerbi.com/view?r=eyJrIjoiY2JkMjMyNjQtYzYyMS00ZTk2LWE1YjktMGFmOTYzOWYyYTk3IiwidCI6ImNiNDg0NDZlLTkwZTYtNGJmMS04MjViLTQwZTQ4ZmNjOWZmNiJ9)  
-📊 **View the detailed report:** [PDF](https://github.com/ngthuylinh3003/Christmas_Sales_Dashboard_Power_BI/blob/aafb3fee33a3118d09e2c933a61ab0c35ad3e9bd/CHRISTMAS%20SALES%20ANALYSIS_final.pdf)
++ 📊 **View the Dashboard directly:** [Power BI](https://app.powerbi.com/view?r=eyJrIjoiY2JkMjMyNjQtYzYyMS00ZTk2LWE1YjktMGFmOTYzOWYyYTk3IiwidCI6ImNiNDg0NDZlLTkwZTYtNGJmMS04MjViLTQwZTQ4ZmNjOWZmNiJ9)  
++ 📊 **View the detailed report:** [PDF](https://github.com/ngthuylinh3003/Christmas_Sales_Dashboard_Power_BI/blob/aafb3fee33a3118d09e2c933a61ab0c35ad3e9bd/CHRISTMAS%20SALES%20ANALYSIS_final.pdf)
 
 ## 📌 Objective 
 This project analyzes **Christmas shopping behavior** using **Sales Data 2018-2023**, pre-split into two periods: **Xmas (Nov-Dec)** & **Non-Xmas (Jan-Oct)**. By comparing these two periods, the project analyzes **consumer trends, preferences, and spending patterns during the holiday season**. Additionally, it explores whether **overall sales were impacted during the COVID-19 period**
@@ -11,7 +11,7 @@ This project analyzes **Christmas shopping behavior** using **Sales Data 2018-20
 ## 📂 Data Source  
 The dataset includes [Sales Data](https://docs.google.com/spreadsheets/d/1IL0g5q5ObrcN3wGzU2eMZyBGNtuubVzcDPG1w3q-dc8/edit?usp=sharing)  from **2018 to 2023**, covering:  
 - **Key business metrics**: Sales, quantity, number of orders  
-- **Product-related factors** and **Customer demographics & purchase behavior** : Promotions, gift wrapping services, shipping methods, payment types, delivery time, satisfaction scores, etc. 
+- **Product-related factors** and **Customer demographics & purchase behavior**: Promotions, gift wrapping services, shipping methods, payment types, delivery time, satisfaction scores, etc. 
 
 Source: FP20 Analytics Data Challenges Group - Federico Pastor  (Linkedin)
 
@@ -21,7 +21,7 @@ Source: FP20 Analytics Data Challenges Group - Federico Pastor  (Linkedin)
 
 ### Full Power BI Workflow  
 📌 **Data Processing & Preparation**
-+ Removed unnecessary columns and handled missing values
++ Removed unnecessary columns for analyzing
 + Corrected data types for accurate calculations
 + Created a Date Dimension Table for time-based analysis
 
@@ -33,9 +33,9 @@ Source: FP20 Analytics Data Challenges Group - Federico Pastor  (Linkedin)
 📌 **Dashboard Structure (8 Pages)**
 + Page 1: Xmas & Non-Xmas – Sales trends from 2018 to 2023, comparing the Xmas period (Nov-Dec) vs. Non-Xmas period (Jan-Oct).
 + Page 2: Customer Behavior on Xmas – Shopping patterns during Christmas, segmentation by product category, and insights on Promotions, Customer Satisfaction Scores, and Payment Methods.
-+ Other Pages – In-depth analysis of Xmas Sales & Trends, supporting data-driven decision-making.
++ Other Pages: In-depth analysis of Xmas Sales & Trends, supporting data-driven decision-making.
 
-📌 **Data Visualization**:  
+📌 **Data Visualization**
 + **Cards** (KPIs: Total Sales, Quantity, Orders)  
 + **Line Charts** (Sales Trends Over Time)     
 + **Matrix Tables** (Detailed Comparisons)
