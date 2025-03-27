@@ -1,30 +1,99 @@
 # 🎅 Christmas Sales Dashboard
 
-## 1) Dataset & Outputs
-- 📊 **View the original dataset & Dictionary:** [Google Sheet](https://docs.google.com/spreadsheets/d/1IL0g5q5ObrcN3wGzU2eMZyBGNtuubVzcDPG1w3q-dc8/edit?usp=sharing)  
-- 📊 **View the Dashboard directly:** [Power BI](https://app.powerbi.com/view?r=eyJrIjoiY2JkMjMyNjQtYzYyMS00ZTk2LWE1YjktMGFmOTYzOWYyYTk3IiwidCI6ImNiNDg0NDZlLTkwZTYtNGJmMS04MjViLTQwZTQ4ZmNjOWZmNiJ9)  
-- 📊 **View the detailed report:** [PDF](https://github.com/ngthuylinh3003/-POWER-BI-Christmas-Sales-Dashboard/blob/7bf230cd7398e2a1013b6ad6e97bb12089cf77f5/CHRISTMAS%20SALES%20ANALYSIS-%C4%91%C3%A3%20g%E1%BB%99p.pdf)  
+📊 **View the Dashboard directly:** [Power BI](https://app.powerbi.com/view?r=eyJrIjoiY2JkMjMyNjQtYzYyMS00ZTk2LWE1YjktMGFmOTYzOWYyYTk3IiwidCI6ImNiNDg0NDZlLTkwZTYtNGJmMS04MjViLTQwZTQ4ZmNjOWZmNiJ9)  
+📊 **View the detailed report:** [PDF](https://github.com/ngthuylinh3003/Christmas_Sales_Dashboard_Power_BI/blob/aafb3fee33a3118d09e2c933a61ab0c35ad3e9bd/CHRISTMAS%20SALES%20ANALYSIS_final.pdf)
 
- ## 2) About the Original Dataset 
-A leading market research firm has compiled an extensive dataset on **Holiday Sales**, encompassing **customer demographics, purchasing behavior, promotional effectiveness, and satisfaction metrics**. This analysis aims to **identify shopping trends, measure the impact of promotions, uncover key drivers of customer satisfaction**, and generate insights to optimize future holiday sales strategies.  
+## 📌 Objective 
+This project analyzes **Christmas shopping behavior** using **Sales Data 2018-2023**, pre-split into two periods: **Xmas (Nov-Dec)** & **Non-Xmas (Jan-Oct)**. By comparing these two periods, the project analyzes **consumer trends, preferences, and spending patterns during the holiday season**. Additionally, it explores whether **overall sales were impacted during the COVID-19 period**
 
-### 📌 Objectives  
-- **Analyze the dynamic landscape of holiday shopping**, uncovering key factors that influence Christmas consumer behavior.  
-- **Identify sales trends and customer insights**, highlighting shopping preferences and behaviors during the festive season.  
+---
 
-📂 **Source**: FP20 Analytics Data Challenges Group - Federico Pastor  
-## 3) Power BI Dashboard Overview  
+## 📂 Data Source  
+The dataset includes [Sales Data](https://docs.google.com/spreadsheets/d/1IL0g5q5ObrcN3wGzU2eMZyBGNtuubVzcDPG1w3q-dc8/edit?usp=sharing)  from **2018 to 2023**, covering:  
+- **Key business metrics**: Sales, quantity, number of orders  
+- **Product-related factors** and **Customer demographics & purchase behavior** : Promotions, gift wrapping services, shipping methods, payment types, delivery time, satisfaction scores, etc. 
 
-This analysis was conducted entirely using **Power BI**, featuring **8 pages** in total, with two key pages:  
+Source: FP20 Analytics Data Challenges Group - Federico Pastor  (Linkedin)
 
-### 🎄 Page 1: Xmas & Non-Xmas  
-Analyzing overall sales trends from **2018 to 2023**, comparing key metrics between the **Xmas period (Nov-Dec)** and the **Non-Xmas period (Jan-Oct)**.  
+---
 
-### 🛍️ Page 2: Customer Behavior on Xmas  
-Examining shopping behavior during Christmas, including **customer segmentation by product category**. Additional analysis covers **Promotions, Customer Satisfaction Scores, and Payment Methods**.  
+## ⚡ Approach
 
-### 📈 Other Pages  
-Providing **additional insights** into **Xmas Sales & Trends**, summarizing key findings to support strategic planning.  
+### Full Power BI Workflow  
+
+- **Data Transformation**: Clean and structure data in **Power Query (Transform Data)**
+  
+- **Data Modeling**:  
+  - Create a **Date Dimension Table**  
+  - Connect tables in **Model View** for time-based analysis
+  - 
+- **Data Visualization**:  
+  - **Cards** (KPIs: Total Sales, Quantity, Orders)  
+  - **Line Charts** (Sales Trends Over Time)     
+  - **Matrix Tables** (Detailed Comparisons)
+  - Others are **Heatmaps**, **Pie Charts**, **100% stacked area**, **Clustered Bar Charts**
+    
+ - **Insights & Recommendation**  
+   - Comment by detailed observations, highlighting key takeaways and providing some recommendations to guide decision-making  
+     
+### **Power BI Dashboard Overview** : *8 pages* in total, with 2 key pages:  
++ Page 1: **Xmas & Non-Xmas** : Analyzing overall sales trends from **2018 to 2023**, comparing key metrics between the **Xmas period (Nov-Dec)** and the **Non-Xmas period (Jan-Oct)**
+  
++ Page 2: **Customer Behavior on Xmas** : Examining shopping behavior during Christmas, including **customer segmentation by product category**. Additional analysis covers **Promotions, Customer Satisfaction Scores, and Payment Methods**
+  
++ Other Pages: Providing **additional insights** into **Xmas Sales & Trends**, summarizing key findings to support strategic planning
+
+---
+
+## 📊 Results   
+
+### 1. 2018-2023 Overview  
+- Net Sales fluctuated, declining in **2019 (-6.2%)** and **2022**, but increasing from **255K to 274K in 2023**  
+- **Nov-Dec consistently outperformed other months**, generating **twice the sales** of Jan-Oct  
+
+### 2. Impact of **COVID-19** on Sales  
+- **2019 saw a decline (-6.2%)**, potentially due to the pandemic  
+- **2020 showed a slight recovery (+2.3%)**, but didn’t reach 2018 levels  
+
+## 🎄 Christmas Shopping Trends (Nov-Dec Only)  
+
+### 3. Age Group Spending  
+- **Gen Z (18-25):** Lowest spending share (**16.3%**)  
+- **Baby Boomers (56-70):** Highest spending, nearly **double** Gen Z  
+- **Millennials & Gen X** show **similar spending levels**  
+
+### 4. Gender & Product Trends  
+- **No major gender-based spending differences**  
+- **Toy Sales lead revenue**, but purchases are **diverse across categories**  
+
+### 5. Peak Sales by Time & Day  
+- **Midweek (Wednesday) & Sunday** saw **peak sales**  
+- **10 AM & 7 PM** were the **busiest shopping hours**  
+- **Dec 21-26 had the biggest sales increase**  
+
+### 6. Sales Events & Promotions  
+- **Black Friday dominated Xmas sales (2018-2023)**  
+- **2021-2022 promotions** increased **orders & Net Sales**, but **Average Order Value (AOV) dropped**, needing better promotion strategies (mkt) 
+
+### 7. Customer Satisfaction Insights  
+- **Delivery time (1-5 days) had minimal impact on satisfaction**  
+- **Return policy effectiveness:** Satisfaction scores were nearly the **same** for returned vs. non-returned orders (**3.03 vs. 2.95**)  
+
+---
+
+## 🔍 Personal Recommendations  
+### Targeted Customer Segments  
+- While **gender and age** differences are minimal, a **deeper segmentation** may provide **more actionable insights**  (need more data to analyze)
+- Retailers/ The company should **optimize product categorization** for **specific customer groups**  
+
+### Optimize Peak Sales Periods  
+- Use **historical data** (peak hours, high-demand days, or target markets) to sell the right products and boost revenue  
+
+### Improve Shipping & Promotions  
+- Collaborate with **shipping carriers** to **reduce costs** and enhance customer experience  
+- Apply **suitable discount strategies** to **maximize profitability** without reducing AOV
+
+---
 
 📌 Beyond analyzing key metrics, I also provide **recommendations and personal perspectives**, hoping they will be helpful to everyone! 
 
