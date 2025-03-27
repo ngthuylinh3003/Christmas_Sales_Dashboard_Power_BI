@@ -20,28 +20,26 @@ Source: FP20 Analytics Data Challenges Group - Federico Pastor  (Linkedin)
 ## ⚡ Approach
 
 ### Full Power BI Workflow  
+📌 **Data Processing & Preparation**
++ Removed unnecessary columns and handled missing values
++ Corrected data types for accurate calculations
++ Created a Date Dimension Table for time-based analysis
 
-- **Data Transformation**: Clean and structure data in **Power Query (Transform Data)**
-  
-- **Data Modeling**:  
-  - Create a **Date Dimension Table**  
-  - Connect tables in **Model View** for time-based analysis
-  - 
-- **Data Visualization**:  
-  - **Cards** (KPIs: Total Sales, Quantity, Orders)  
-  - **Line Charts** (Sales Trends Over Time)     
-  - **Matrix Tables** (Detailed Comparisons)
-  - Others are **Heatmaps**, **Pie Charts**, **100% stacked area**, **Clustered Bar Charts**
-    
- - **Insights & Recommendation**  
-   - Comment by detailed observations, highlighting key takeaways and providing some recommendations to guide decision-making  
-     
-### **Power BI Dashboard Overview** : *8 pages* in total, with 2 key pages:  
-+ Page 1: **Xmas & Non-Xmas** : Analyzing overall sales trends from **2018 to 2023**, comparing key metrics between the **Xmas period (Nov-Dec)** and the **Non-Xmas period (Jan-Oct)**
-  
-+ Page 2: **Customer Behavior on Xmas** : Examining shopping behavior during Christmas, including **customer segmentation by product category**. Additional analysis covers **Promotions, Customer Satisfaction Scores, and Payment Methods**
-  
-+ Other Pages: Providing **additional insights** into **Xmas Sales & Trends**, summarizing key findings to support strategic planning
+📌 **Measure Calculations**
++ Financial KPIs: Total Sales, Total Profit, Total Quantity
++ Growth Metrics: Sales Growth % (YoY, MoM), Profit Growth %, Quantity Growth %
++ Profitability & Discount Analysis: Profit Margin, Discount Rate, Average Order Value (AOV)
+
+📌 **Dashboard Structure (8 Pages)**
++ Page 1: Xmas & Non-Xmas – Sales trends from 2018 to 2023, comparing the Xmas period (Nov-Dec) vs. Non-Xmas period (Jan-Oct).
++ Page 2: Customer Behavior on Xmas – Shopping patterns during Christmas, segmentation by product category, and insights on Promotions, Customer Satisfaction Scores, and Payment Methods.
++ Other Pages – In-depth analysis of Xmas Sales & Trends, supporting data-driven decision-making.
+
+📌 **Data Visualization**:  
++ **Cards** (KPIs: Total Sales, Quantity, Orders)  
++ **Line Charts** (Sales Trends Over Time)     
++ **Matrix Tables** (Detailed Comparisons)
++ Others are **Heatmaps**, **Pie Charts**, **100% stacked area**, **Clustered Bar Charts**
 
 ---
 
